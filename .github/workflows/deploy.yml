@@ -22,10 +22,11 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npx vite build --outDir dist/client --emptyOutDir
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/client
+          force_orphan: true
