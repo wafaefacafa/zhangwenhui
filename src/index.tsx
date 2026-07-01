@@ -6,9 +6,11 @@ import { AppContainer, ErrorRender } from "@lark-apaas/client-toolkit-lite";
 import App from "./app";
 import "./index.css";
 
+const basename = import.meta.env.VITE_CLIENT_BASE_PATH || import.meta.env.BASE_URL || "/";
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename={process.env.CLIENT_BASE_PATH || "/"}>
+    <BrowserRouter basename={basename}>
       <AppContainer>
         <ErrorBoundary
           fallbackRender={({ error, resetErrorBoundary }) => (

@@ -63,9 +63,9 @@ const MOCK_LYRICS: ILyricLine[] = [
   { time: 55, text: '我们一起歌唱' },
 ]
 
-const COVER_NEON = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=neon%20music%20album%20cover%20purple%20cyan%20gradient%20dark%20background%20vinyl%20record%20aesthetic&image_size=square'
-const COVER_GUITAR = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=acoustic%20guitar%20album%20cover%20warm%20summer%20sunset%20folk%20music%20artistic&image_size=square'
-const COVER_HIPHOP = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=hiphop%20graffiti%20album%20cover%20urban%20street%20art%20dark%20neon%20colors&image_size=square'
+const COVER_NEON = 'https://picsum.photos/id/24/500/500'
+const COVER_GUITAR = 'https://picsum.photos/id/10/500/500'
+const COVER_HIPHOP = 'https://picsum.photos/id/29/500/500'
 
 export const MOCK_SONGS: ISong[] = [
   {
@@ -140,7 +140,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '1',
     title: '深夜电子霓虹',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=electronic%20music%20playlist%20cover%20deep%20purple%20cyan%20neon%20lights%20night%20city&image_size=square',
+    cover: 'https://picsum.photos/id/24/500/500',
     creator: 'Harmony 推荐',
     creatorId: 'sys',
     playCount: 128560,
@@ -150,7 +150,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '2',
     title: '治愈钢琴星空',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=piano%20music%20playlist%20cover%20starry%20night%20peaceful%20blue%20purple%20dreamy&image_size=square',
+    cover: 'https://picsum.photos/id/42/500/500',
     creator: '音乐小站',
     creatorId: 'u2',
     playCount: 89420,
@@ -160,7 +160,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '3',
     title: '摇滚现场舞台',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=rock%20music%20playlist%20cover%20concert%20stage%20fire%20energy%20dark%20atmosphere&image_size=square',
+    cover: 'https://picsum.photos/id/29/500/500',
     creator: '摇滚电台',
     creatorId: 'u3',
     playCount: 67230,
@@ -170,7 +170,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '4',
     title: '爵士复古黑胶',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=jazz%20music%20playlist%20cover%20vintage%20vinyl%20record%20retro%20saxophone%20warm%20tones&image_size=square',
+    cover: 'https://picsum.photos/id/48/500/500',
     creator: '复古唱片店',
     creatorId: 'u4',
     playCount: 45680,
@@ -180,7 +180,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '5',
     title: '流行夏日海滨',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=pop%20music%20playlist%20cover%20summer%20beach%20sunset%20ocean%20happy%20vibrant&image_size=square',
+    cover: 'https://picsum.photos/id/15/500/500',
     creator: '夏日音乐季',
     creatorId: 'u5',
     playCount: 156780,
@@ -190,7 +190,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '6',
     title: '古典交响音乐厅',
-    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=classical%20music%20playlist%20cover%20orchestra%20concert%20hall%20elegant%20golden%20lighting&image_size=square',
+    cover: 'https://picsum.photos/id/36/500/500',
     creator: '古典音乐厅',
     creatorId: 'u6',
     playCount: 34520,
@@ -203,7 +203,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '1',
     name: '林夜',
-    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=electronic%20music%20artist%20portrait%20purple%20lighting%20dark%20background%20synthwave%20style&image_size=square',
+    avatar: 'https://picsum.photos/id/64/500/500',
     description: '独立电子音乐人，擅长合成器与氛围音乐创作，作品充满未来感与梦幻色彩。',
     followers: 285600,
     albumIds: ['1'],
@@ -212,7 +212,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '2',
     name: '苏晴',
-    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=female%20singer%20portrait%20soft%20lighting%20warm%20smile%20professional%20music%20artist&image_size=square',
+    avatar: 'https://picsum.photos/id/65/500/500',
     description: '治愈系女歌手，嗓音清澈温暖，作品多为都市情感主题。',
     followers: 512300,
     albumIds: ['1', '2'],
@@ -221,7 +221,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '3',
     name: '陈默',
-    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=folk%20singer%20with%20guitar%20portrait%20casual%20style%20warm%20lighting%20authentic&image_size=square',
+    avatar: 'https://picsum.photos/id/66/500/500',
     description: '民谣唱作人，用一把木吉他讲述城市里的故事。',
     followers: 168900,
     albumIds: ['2'],
@@ -230,7 +230,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '4',
     name: 'GHOST',
-    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=hiphop%20rapper%20portrait%20urban%20style%20dark%20background%20neon%20accent%20streetwear&image_size=square',
+    avatar: 'https://picsum.photos/id/67/500/500',
     description: '地下嘻哈制作人，街头文化爱好者，风格硬核前卫。',
     followers: 98700,
     albumIds: ['3'],
