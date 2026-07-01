@@ -17,7 +17,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '夜空中最亮的星',
     artist: '逃跑计划',
     artistId: '1',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/1.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=stars%20night%20sky%20music%20cover%20dreamy%20purple%20blue&image_size=square',
     hotLevel: 3,
     playCount: '98.2万'
   },
@@ -27,7 +27,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '晴天',
     artist: '周杰伦',
     artistId: '2',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/2.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=sunny%20day%20blue%20sky%20music%20cover%20pop%20vibrant&image_size=square',
     hotLevel: 3,
     playCount: '95.6万'
   },
@@ -37,7 +37,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '起风了',
     artist: '买辣椒也用券',
     artistId: '3',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/3.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=wind%20blowing%20leaves%20music%20cover%20autumn%20peaceful&image_size=square',
     hotLevel: 2,
     playCount: '92.1万'
   },
@@ -47,7 +47,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '稻香',
     artist: '周杰伦',
     artistId: '2',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/4.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=rice%20field%20golden%20harvest%20music%20cover%20countryside%20warm&image_size=square',
     hotLevel: 2,
     playCount: '88.7万'
   },
@@ -57,7 +57,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '光年之外',
     artist: '邓紫棋',
     artistId: '4',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/5.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=outer%20space%20stars%20galaxy%20music%20cover%20science%20fiction&image_size=square',
     hotLevel: 2,
     playCount: '85.3万'
   },
@@ -67,7 +67,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '海阔天空',
     artist: 'Beyond',
     artistId: '5',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/6.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=ocean%20sea%20sky%20horizon%20music%20cover%20inspirational%20blue&image_size=square',
     hotLevel: 2,
     playCount: '82.9万'
   },
@@ -77,7 +77,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '平凡之路',
     artist: '朴树',
     artistId: '6',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/7.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=road%20journey%20landscape%20music%20cover%20peaceful%20simple&image_size=square',
     hotLevel: 1,
     playCount: '79.4万'
   },
@@ -87,7 +87,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '成都',
     artist: '赵雷',
     artistId: '7',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/8.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=chengdu%20city%20night%20street%20music%20cover%20warm%20atmosphere&image_size=square',
     hotLevel: 1,
     playCount: '76.8万'
   },
@@ -97,7 +97,7 @@ export const MOCK_RANKS: IRank[] = [
     title: '消愁',
     artist: '毛不易',
     artistId: '8',
-    cover: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/9.jpg',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=melancholy%20sad%20emotional%20music%20cover%20dark%20blue%20moody&image_size=square',
     hotLevel: 2,
     playCount: '73.5万'
   }

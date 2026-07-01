@@ -63,6 +63,10 @@ const MOCK_LYRICS: ILyricLine[] = [
   { time: 55, text: '我们一起歌唱' },
 ]
 
+const COVER_NEON = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=neon%20music%20album%20cover%20purple%20cyan%20gradient%20dark%20background%20vinyl%20record%20aesthetic&image_size=square'
+const COVER_GUITAR = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=acoustic%20guitar%20album%20cover%20warm%20summer%20sunset%20folk%20music%20artistic&image_size=square'
+const COVER_HIPHOP = 'https://neeko-copilot.bytedance.net/api/text2image?prompt=hiphop%20graffiti%20album%20cover%20urban%20street%20art%20dark%20neon%20colors&image_size=square'
+
 export const MOCK_SONGS: ISong[] = [
   {
     id: '1',
@@ -71,7 +75,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '1',
     album: '霓虹梦境',
     albumId: '1',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioj2driou_ve_miaoda',
+    cover: COVER_NEON,
     duration: 245,
     lyrics: MOCK_LYRICS,
   },
@@ -82,7 +86,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '2',
     album: '霓虹梦境',
     albumId: '1',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioj2driou_ve_miaoda',
+    cover: COVER_NEON,
     duration: 198,
     lyrics: MOCK_LYRICS,
   },
@@ -93,7 +97,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '3',
     album: '木吉他的夏天',
     albumId: '2',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojgtkufw_ve_miaoda',
+    cover: COVER_GUITAR,
     duration: 312,
     lyrics: MOCK_LYRICS,
   },
@@ -104,7 +108,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '4',
     album: '涂鸦之城',
     albumId: '3',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojgtkuew_ve_miaoda',
+    cover: COVER_HIPHOP,
     duration: 276,
     lyrics: MOCK_LYRICS,
   },
@@ -115,7 +119,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '1',
     album: '霓虹梦境',
     albumId: '1',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioj2driou_ve_miaoda',
+    cover: COVER_NEON,
     duration: 223,
     lyrics: MOCK_LYRICS,
   },
@@ -126,7 +130,7 @@ export const MOCK_SONGS: ISong[] = [
     artistId: '2',
     album: '木吉他的夏天',
     albumId: '2',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojgtkufw_ve_miaoda',
+    cover: COVER_GUITAR,
     duration: 289,
     lyrics: MOCK_LYRICS,
   },
@@ -136,7 +140,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '1',
     title: '深夜电子霓虹',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiokulmkbw_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=electronic%20music%20playlist%20cover%20deep%20purple%20cyan%20neon%20lights%20night%20city&image_size=square',
     creator: 'Harmony 推荐',
     creatorId: 'sys',
     playCount: 128560,
@@ -146,7 +150,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '2',
     title: '治愈钢琴星空',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojqdmchs_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=piano%20music%20playlist%20cover%20starry%20night%20peaceful%20blue%20purple%20dreamy&image_size=square',
     creator: '音乐小站',
     creatorId: 'u2',
     playCount: 89420,
@@ -156,7 +160,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '3',
     title: '摇滚现场舞台',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioizyj4gs_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=rock%20music%20playlist%20cover%20concert%20stage%20fire%20energy%20dark%20atmosphere&image_size=square',
     creator: '摇滚电台',
     creatorId: 'u3',
     playCount: 67230,
@@ -166,7 +170,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '4',
     title: '爵士复古黑胶',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiofej5qiu_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=jazz%20music%20playlist%20cover%20vintage%20vinyl%20record%20retro%20saxophone%20warm%20tones&image_size=square',
     creator: '复古唱片店',
     creatorId: 'u4',
     playCount: 45680,
@@ -176,7 +180,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '5',
     title: '流行夏日海滨',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioj4ebmbw_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=pop%20music%20playlist%20cover%20summer%20beach%20sunset%20ocean%20happy%20vibrant&image_size=square',
     creator: '夏日音乐季',
     creatorId: 'u5',
     playCount: 156780,
@@ -186,7 +190,7 @@ export const MOCK_PLAYLISTS: IPlaylist[] = [
   {
     id: '6',
     title: '古典交响音乐厅',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojcy6ggu_ve_miaoda',
+    cover: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=classical%20music%20playlist%20cover%20orchestra%20concert%20hall%20elegant%20golden%20lighting&image_size=square',
     creator: '古典音乐厅',
     creatorId: 'u6',
     playCount: 34520,
@@ -199,7 +203,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '1',
     name: '林夜',
-    avatar: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/1.jpg',
+    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=electronic%20music%20artist%20portrait%20purple%20lighting%20dark%20background%20synthwave%20style&image_size=square',
     description: '独立电子音乐人，擅长合成器与氛围音乐创作，作品充满未来感与梦幻色彩。',
     followers: 285600,
     albumIds: ['1'],
@@ -208,7 +212,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '2',
     name: '苏晴',
-    avatar: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/2.jpg',
+    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=female%20singer%20portrait%20soft%20lighting%20warm%20smile%20professional%20music%20artist&image_size=square',
     description: '治愈系女歌手，嗓音清澈温暖，作品多为都市情感主题。',
     followers: 512300,
     albumIds: ['1', '2'],
@@ -217,7 +221,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '3',
     name: '陈默',
-    avatar: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/3.jpg',
+    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=folk%20singer%20with%20guitar%20portrait%20casual%20style%20warm%20lighting%20authentic&image_size=square',
     description: '民谣唱作人，用一把木吉他讲述城市里的故事。',
     followers: 168900,
     albumIds: ['2'],
@@ -226,7 +230,7 @@ export const MOCK_ARTISTS: IArtist[] = [
   {
     id: '4',
     name: 'GHOST',
-    avatar: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/4.jpg',
+    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=hiphop%20rapper%20portrait%20urban%20style%20dark%20background%20neon%20accent%20streetwear&image_size=square',
     description: '地下嘻哈制作人，街头文化爱好者，风格硬核前卫。',
     followers: 98700,
     albumIds: ['3'],
@@ -238,7 +242,7 @@ export const MOCK_ALBUMS: IAlbum[] = [
   {
     id: '1',
     title: '霓虹梦境',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkioj2driou_ve_miaoda',
+    cover: COVER_NEON,
     artist: '林夜',
     artistId: '1',
     releaseDate: '2024-03-15',
@@ -248,7 +252,7 @@ export const MOCK_ALBUMS: IAlbum[] = [
   {
     id: '2',
     title: '木吉他的夏天',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojgtkufw_ve_miaoda',
+    cover: COVER_GUITAR,
     artist: '陈默',
     artistId: '3',
     releaseDate: '2023-07-20',
@@ -258,7 +262,7 @@ export const MOCK_ALBUMS: IAlbum[] = [
   {
     id: '3',
     title: '涂鸦之城',
-    cover: '/spark/app/app_1796yh5rvym/runtime/api/v1/storage/object/bucket_aadkioro44ucs_static/static%2Faadkiojgtkuew_ve_miaoda',
+    cover: COVER_HIPHOP,
     artist: 'GHOST',
     artistId: '4',
     releaseDate: '2024-01-08',

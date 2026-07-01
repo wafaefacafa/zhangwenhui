@@ -12,7 +12,7 @@ export const MOCK_USERS: IUser[] = [
   {
     id: '1',
     username: 'Harmony乐迷',
-    avatar: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/1.jpg',
+    avatar: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=music%20lover%20avatar%20portrait%20casual%20style%20warm%20friendly%20smile&image_size=square',
     level: 8,
     followingCount: 128,
     followerCount: 256,
