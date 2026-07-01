@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/"
+  },
+  {
+    "path": "/splash"
+  },
+  {
+    "path": "/login"
+  },
+  {
+    "path": "/search"
+  },
+  {
+    "path": "/my-music"
+  },
+  {
+    "path": "/rank"
+  },
+  {
+    "path": "/player"
+  },
+  {
+    "path": "/playlist/:id"
+  },
+  {
+    "path": "/artist/:id"
+  },
+  {
+    "path": "/album/:id"
+  },
+  {
+    "path": "/lyrics"
+  },
+  {
+    "path": "/profile"
+  },
+  {
+    "path": "/settings"
+  },
+  {
+    "path": "/download"
+  },
+  {
+    "path": "/queue"
+  }
+]
